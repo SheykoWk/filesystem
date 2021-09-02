@@ -1,6 +1,6 @@
 const app = require("./index");
 const path = require("path");
-const fs = require("fs/promises");
+const fs = require("fs").promises;
 
 describe("1. Probando la implementación de readFileUsers", () => {
     afterEach(() => {
